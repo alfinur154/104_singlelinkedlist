@@ -50,6 +50,11 @@ void addNode() {
 	previous->next = nodeBaru;
 }
 
-Bool serachNode(int nim, Node* current, Node* previous) {
-
+bool serachNode(int nim, Node* current, Node* previous) {
+	previous = START;
+	current = START;
+	while (current != NULL && nim > current->noMhs)
+	{
+		
+	}
 }
